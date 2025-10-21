@@ -134,6 +134,7 @@ public class EcoPointsRecyclingTracker {
         System.out.println("Total Points: " + household.getTotalPoints() + " pts");
     }
     private static void displayHouseholdRecyclingEventsReports() {
+        // displayHouseholdRecyclingEventsReports
       if(households.isEmpty()){
           System.out.println("No households registered.");
           return;
